@@ -1,0 +1,18 @@
+{
+  "name": "spike-a1-server",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "loadtest": "tsx src/loadtest.ts"
+  },
+  "dependencies": {
+    "@colyseus/schema": "^2.0.36",
+    "colyseus": "^0.15.17",
+    "colyseus.js": "^0.15.26"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
